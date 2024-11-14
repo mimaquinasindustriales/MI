@@ -190,7 +190,7 @@
 
 .tipodemaquina h1 {
   color: #ffffff;
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: bold;
   margin: 0;
   padding: 10px;
@@ -200,7 +200,7 @@
 
 .tipodemaquina h2 {
   color: #ffffff;
-  font-size: 1rem;
+  font-size: 2rem;
   font-weight: bold;
   margin: 0;
   padding: 10px;
@@ -229,7 +229,7 @@
   padding: 20px;
   text-align: center;
   width: 360px;
-  height: 350px;
+  height: 370px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -410,6 +410,9 @@
   .tipodemaquina h1 {
     font-size: 1rem;
   }
+  .tipodemaquina h1 {
+    font-size: 1rem;
+  }
   .header-catalogo a, .footer-catalogo a {
     font-size: 0.8rem;
   }
@@ -436,8 +439,8 @@
     max-height: 200px;
   }
   .article-catalogo {
-    max-width: 160px;
-    max-height: 180px;
+    max-width: 180px;
+    max-height: 210px;
   }
   .article-catalogo p {
     font-size: 0.6rem;
@@ -450,7 +453,10 @@
     font-size: 0.6rem;
   }
   .tipodemaquina h1 {
-    font-size: 0.7rem;
+    font-size: 1rem;
+  }
+  .tipodemaquina h1 {
+    font-size: 1rem;
   }
   .header-catalogo a, .footer-catalogo a {
     font-size: 0.8rem;
@@ -478,18 +484,21 @@
     max-height: 200px;
   }
   .article-catalogo {
-    max-width: 160px;
-    max-height: 190px;
+    max-width: 180px;
+    max-height: 210px;
   }
   .article-catalogo p {
     font-size: 0.5rem;
   }
   .article-catalogo h5{
-    font-size: 0.5rem;
+    font-size: 0.8rem;
   }
 
   .article-catalogo h6{
-    font-size: 0.5rem;
+    font-size: 0.8rem;
+  }
+  .tipodemaquina h1 {
+    font-size: 1rem;
   }
   .tipodemaquina h1 {
     font-size: 1rem;
@@ -520,21 +529,24 @@
     max-height: 150px;
   }
   .article-catalogo {
-    max-width: 140px;
-    max-height: 170px;
+    max-width: 180px;
+    max-height: 210px;
   }
   .article-catalogo p {
     font-size: 0.6rem;
   }
   .article-catalogo h5{
-    font-size: 0.4rem;
+    font-size: 0.8rem;
   }
 
   .article-catalogo h6{
-    font-size: 0.4rem;
+    font-size: 0.8rem;
   }
   .tipodemaquina h1 {
-    font-size: 0.5rem;
+    font-size: 1rem;
+  }
+  .tipodemaquina h2 {
+    font-size: 1rem;
   }
   .header-catalogo a, .footer-catalogo a {
     font-size: 0.8rem;
@@ -562,22 +574,25 @@
     max-height: 130px;
   }
   .article-catalogo {
-    max-width: 150px;
-    max-height: 170px;
+    max-width: 180px;
+    max-height: 210px;
   }
   .article-catalogo p {
     font-size: 0.6rem;
   }
 
   .article-catalogo h5{
-    font-size: 0.4rem;
+    font-size: 0.6rem;
   }
 
   .article-catalogo h6{
-    font-size: 0.4rem;
+    font-size: 0.6rem;
   }
   .tipodemaquina h1 {
-    font-size: 0.6rem;
+    font-size: 1rem;
+  }
+  .tipodemaquina h2 {
+    font-size: 1rem;
   }
   .header-catalogo a, .footer-catalogo a {
     font-size: 0.8rem;
