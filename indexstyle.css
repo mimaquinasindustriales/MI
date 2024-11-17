@@ -374,6 +374,7 @@
   background-image: linear-gradient(to bottom, rgb(92, 1, 1), rgb(255, 0, 0));
 }
 
+
 /* Responsividad */
 @media (max-width: 1280px) {
   .header-index img {
@@ -404,7 +405,7 @@
     font-size: 0.5rem;
   }
 
-  .tipodemaquina h1, .tipodemaquina h2 {
+  .tipodemaquina h1, h2 {
     font-size: 1rem;
   }
   .header-catalogo a, .footer-catalogo a {
@@ -443,7 +444,7 @@
     font-size: 0.6rem;
   }
 
-  .tipodemaquina h1, .tipodemaquina h2 {
+  .tipodemaquina h1, h2 {
     font-size: 1rem;
   }
   .header-catalogo a, .footer-catalogo a {
@@ -482,7 +483,7 @@
     font-size: 0.5rem;
   }
 
-  .tipodemaquina h1, .tipodemaquina h2 {
+  .tipodemaquina h1, h2 {
     font-size: 1rem;
   }
   .header-catalogo a, .footer-catalogo a {
@@ -517,11 +518,11 @@
   .article-catalogo p {
     font-size: 0.6rem;
   }
-  .article-catalogo h5, .article-catalogo h6{
+  .article-catalogo h5, h6{
     font-size: 0.5rem;
   }
 
-  .tipodemaquina h1, .tipodemaquina h2 {
+  .tipodemaquina h1, h2 {
     font-size: 1rem;
   }
   
@@ -562,7 +563,7 @@
     font-size: 0.4rem;
   }
 
-  .tipodemaquina h1, .tipodemaquina h2 {
+  .tipodemaquina h1, h2 {
     font-size: 1rem;
   }
 
@@ -573,6 +574,3 @@
     font-size: 0.5rem;
   }
 }
-
-
-/*# sourceMappingURL=indexstyle.css.map */
