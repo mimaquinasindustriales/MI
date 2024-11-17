@@ -400,13 +400,10 @@
   .article-catalogo p {
     font-size: 0.5rem;
   }
-  .article-catalogo h5{
+  .article-catalogo h5, H6{
     font-size: 1rem;
   }
 
-  .article-catalogo h6{
-    font-size: 1rem;
-  }
   .tipodemaquina h1 {
     font-size: 1rem;
   }
@@ -445,13 +442,10 @@
   .article-catalogo p {
     font-size: 0.5rem;
   }
-  .article-catalogo h5{
+  .article-catalogo h5, H6{
     font-size: 0.6rem;
   }
 
-  .article-catalogo h6{
-    font-size: 0.6rem;
-  }
   .tipodemaquina h1 {
     font-size: 1rem;
   }
@@ -490,13 +484,10 @@
   .article-catalogo p {
     font-size: 0.5rem;
   }
-  .article-catalogo h5{
-    font-size: 1rem;
+  .article-catalogo h5, H6{
+    font-size: 5rem;
   }
 
-  .article-catalogo h6{
-    font-size: 1rem;
-  }
   .tipodemaquina h1 {
     font-size: 1rem;
   }
@@ -535,13 +526,10 @@
   .article-catalogo p {
     font-size: 0.6rem;
   }
-  .article-catalogo h5{
+  .article-catalogo h5, H6{
     font-size: 0.4rem;
   }
 
-  .article-catalogo h6{
-    font-size: 0.4rem;
-  }
   .tipodemaquina h1 {
     font-size: 1rem;
   }
@@ -581,12 +569,11 @@
     font-size: 0.6rem;
   }
 
-  .article-catalogo h5{
+  .article-catalogo h5, h6{
     font-size: 0.4rem;
   }
 
-  .article-catalogo h6{
-    font-size: 0.4rem;
+ 
   }
   .tipodemaquina h1 {
     font-size: 1rem;
