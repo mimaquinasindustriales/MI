@@ -404,10 +404,7 @@
     font-size: 0.5rem;
   }
 
-  .tipodemaquina h1 {
-    font-size: 1rem;
-  }
-  .tipodemaquina h1 {
+  .tipodemaquina h1, h2 {
     font-size: 1rem;
   }
   .header-catalogo a, .footer-catalogo a {
@@ -446,10 +443,7 @@
     font-size: 0.6rem;
   }
 
-  .tipodemaquina h1 {
-    font-size: 1rem;
-  }
-  .tipodemaquina h1 {
+  .tipodemaquina h1, h2 {
     font-size: 1rem;
   }
   .header-catalogo a, .footer-catalogo a {
@@ -488,7 +482,7 @@
     font-size: 0.5rem;
   }
 
-  .tipodemaquina h1 {
+  .tipodemaquina h1, h2 {
     font-size: 1rem;
   }
   .header-catalogo a, .footer-catalogo a {
@@ -524,15 +518,13 @@
     font-size: 0.6rem;
   }
   .article-catalogo h5, H6{
-    font-size: 0.4rem;
+    font-size: 0.5rem;
   }
 
-  .tipodemaquina h1 {
+  .tipodemaquina h1, h2 {
     font-size: 1rem;
   }
-  .tipodemaquina h2 {
-    font-size: 1rem;
-  }
+  
   .header-catalogo a, .footer-catalogo a {
     font-size: 0.8rem;
   }
