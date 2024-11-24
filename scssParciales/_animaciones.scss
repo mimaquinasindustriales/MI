@@ -1,0 +1,99 @@
+/* Animaciones generales */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.05);
+    }
+}
+
+/* Animación de agrandado para los textos h5 y h6 dentro de article-catalogo */
+/* Animación para agrandar la imagen dentro de .article-catalogo */
+@keyframes scaleImage {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.2);
+    }
+}
+
+/* Aplicando la animación a la imagen dentro de article-catalogo */
+.article-catalogo {
+    img {
+        transition: transform 0.3s ease;
+        animation: fadeIn 1s ease-out forwards;
+
+        &:hover {
+            animation: scaleImage 0.3s ease-in-out forwards;
+        }
+    }
+
+    h5, h6 {
+        font-weight: bold;
+        transition: transform 0.3s ease, font-size 0.3s ease;
+
+        &:hover {
+            transform: scale(1.1);
+            
+        }
+    }
+}
+
+
+
+/* Animación para el header */
+.header-index {
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Transición de hover para el contacto */
+.contacto-index {
+    transition: all 0.2s ease-in-out;
+    &:hover {
+        background-color: #6b6b5f;
+        transform: scale(1.0);
+    }
+}
+
+/* Aplicando animación de hover para las tarjetas */
+.fabricante-index {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+
+    &:hover {
+        transform: scale(1.05);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    img {
+        transition: transform 0.2s ease-in-out;
+
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+}
+
+/* Animaciones para los elementos de la página index */
+.fabricante-catalogo-index {
+    animation: slideIn 1s ease-out;
+}

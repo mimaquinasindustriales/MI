@@ -1,0 +1,154 @@
+/* Index */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Sawarabi Gothic", sans-serif;
+    box-sizing: border-box;
+    
+}
+
+.body-index {
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+.header-index {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        width: 100%;
+        max-width: 500px;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        padding-right: 10px;
+    }
+}
+
+.main-index {
+    width: 100%;
+    height: auto;
+
+    h1 {
+        text-align: center;
+        color: #edede6;
+        font-size: 1.5rem;
+        font-style: italic;
+    }
+}
+
+.catalogos-index {
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: double;
+    color: #edede6;
+}
+
+.fabricante-catalogo-index {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.fabricante-index {
+    background-color: rgb(26, 26, 26);
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 300px;
+    box-sizing: border-box;
+
+    img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        &:hover {
+            background-color: #ddddd7;
+        }
+    }
+}
+
+.footer-index {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    overflow-wrap: break-word;
+    height: auto;
+    margin-top: auto;
+    padding: 13px 0;
+    
+
+    h3 {
+        text-decoration: underline;
+        text-decoration-style: double;
+        font-weight: bold;
+        font-size: 1.2rem;
+        color: #edede6;
+        margin: 10px 0;
+    }
+
+    h5 {
+        text-align: right;
+        font-size: 0.8rem;
+        margin-top: 30px;
+        margin-right: 20px;
+        color: #ffffff;
+        font-style: italic;
+    }
+
+    h4 {
+        text-decoration: none;
+        color: #edede6;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 1rem;
+
+        &:hover {
+            color: #ffffff;
+            background-color: #6b6b5f;
+            border-radius: 10px;
+        }
+    }
+
+    .contacto-index {
+        border-radius: 15px;
+        padding: 4px;
+        color: #edede6;
+        font-size: 0.6rem;
+        display: flex;
+        align-self: center;
+        text-decoration: none;
+        font-weight: bold;
+        max-width: 100%;
+        margin: 3px 0;
+            
+    
+        img {
+            width: 30px;
+            height: auto;
+        }
+    }
+}
+
+
+
+

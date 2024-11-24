@@ -1,0 +1,669 @@
+/* Responsividad */
+
+@media (max-width: 1446px) 
+{
+    .header-index 
+    {
+        img 
+        {
+            max-width: 600px;
+        }
+
+        h1 
+        {
+            font-size: 1rem;
+        }
+    }
+
+    .logo-container 
+    {
+        img 
+        {
+            max-width: 200px;
+            max-height: 200px;
+        }
+    }
+
+    .catalogos-index ,
+    .footer-index 
+    {
+        p 
+        {
+            font-size: 0.8rem;
+        }
+    }
+
+    .fabricante-index 
+    {
+        max-width: 300px;
+        max-height: 300px;
+    }
+
+    .article-catalogo 
+    {
+        max-width: 230px;
+        max-height: 280px;
+
+        p 
+        {
+            font-size: 0.8rem;
+        }
+
+        h5, h6 
+        {
+            font-size: 0.8rem;
+            font-weight: bold;
+            transition: transform 0.3s ease, font-size 0.3s ease;
+
+            &:hover 
+            {
+                transform: scale(1.1);
+                
+            }
+            
+        }
+    }
+
+    .tipodemaquina
+    {  
+        h1,h2 
+    
+        {
+            font-size: 1rem;
+        }
+    }
+
+    .header-catalogo ,
+    .footer-catalogo 
+    {
+        h3 
+        {
+            font-size: 0.8rem;
+        }
+    }      
+
+    .footer-index 
+    {
+        h3 
+        {
+            font-size: 0.8rem;
+        }
+    }
+    
+}
+
+
+@media (max-width: 1366px) 
+{
+    .header-index 
+    {
+        img 
+        {
+            max-width: 600px;
+        }
+
+        h1 
+        {
+            font-size: 1rem;
+        }
+    }
+
+    .logo-container 
+    {
+        img 
+        {
+            max-width: 200px;
+            max-height: 200px;
+        }
+    }
+
+    .catalogos-index ,
+    .footer-index 
+    {
+        p 
+        {
+            font-size: 0.6rem;
+        }
+    }
+
+    .fabricante-index 
+    {
+        max-width: 300px;
+        max-height: 300px;
+    }
+
+    .article-catalogo 
+    {
+        max-width: 230px;
+        max-height: 280px;
+
+        p 
+        {
+            font-size: 0.5rem;
+        }
+
+        h5, h6 
+        {
+            font-size: 1rem;
+            font-weight: bold;
+            transition: transform 0.3s ease, font-size 0.3s ease;
+
+            &:hover 
+            {
+                transform: scale(1.1);
+                
+            }
+            
+        }
+    }
+
+    .tipodemaquina
+    {  
+        h1,h2 
+    
+        {
+            font-size: 1rem;
+        }
+    }
+
+    .header-catalogo ,
+    .footer-catalogo 
+    {
+        h3
+        {
+            font-size: 0.8rem;
+        }
+    }      
+
+    .footer-index 
+    {
+        h3 
+        {
+            font-size: 0.8rem;
+        }
+    }
+}
+
+@media (max-width: 1280px) 
+{
+    .header-index 
+    {
+        img 
+        {
+            max-width: 600px;
+        }
+
+        h1 
+        {
+            font-size: 1rem;
+        }
+    }
+
+    .logo-container 
+    {
+        img 
+        {
+            max-width: 200px;
+            max-height: 200px;
+        }
+    }
+
+    .catalogos-index ,
+    .footer-index 
+    {
+        p 
+        {
+            font-size: 0.6rem;
+        }
+    }
+
+    .fabricante-index 
+    {
+        max-width: 300px;
+        max-height: 300px;
+    }
+
+    .article-catalogo 
+    {
+        max-width: 230px;
+        max-height: 280px;
+
+        p 
+        {
+            font-size: 0.5rem;
+        }
+
+        h5, h6 
+        {
+            font-size: 1rem;
+            font-weight: bold;
+            transition: transform 0.3s ease, font-size 0.3s ease;
+
+            &:hover 
+            {
+                transform: scale(1.1);
+                
+            }
+            
+        }
+    }
+
+    .tipodemaquina
+    {  
+        h1,h2 
+    
+        {
+            font-size: 1rem;
+        }
+    }
+
+    .header-catalogo ,
+    .footer-catalogo 
+    {
+        a 
+        {
+            font-size: 0.8rem;
+        }
+    }      
+
+    .footer-index 
+    {
+        a 
+        {
+            font-size: 0.8rem;
+        }
+    }
+}
+
+@media (max-width: 1024px) 
+{
+    .header-index 
+    {
+        img 
+        {
+            max-width: 500px;
+        }
+
+        h1 
+        {
+            font-size: 0.8rem;
+        }
+    }
+
+    .logo-container 
+    {
+        img 
+        {
+            max-width: 150px;
+            max-height: 150px;
+        }
+    }
+
+    .main-index 
+    {
+        h1 
+        {
+            font-size: 0.6rem;
+        }
+    }
+
+    .catalogos-index ,
+    .footer-index 
+    {
+        p 
+        {
+            font-size: 0.6rem;
+        }
+    }
+
+    .fabricante-index 
+    {
+        max-width: 200px;
+        max-height: 200px;
+    }
+
+    .article-catalogo 
+    {
+        max-width: 180px;
+        max-height: 230px;
+
+        p 
+        {
+            font-size: 0.5rem;
+        }
+
+        h5,h6 
+        {
+            font-size: 0.6rem;
+            font-weight: bold;
+            transition: transform 0.3s ease, font-size 0.3s ease;
+
+            &:hover 
+            {
+                transform: scale(1.1);
+                        
+            }
+        }
+
+    }
+
+    .tipodemaquina
+    {  
+        h1,h2 
+    
+        {
+            font-size: 1rem;
+        }
+    }
+
+    .header-catalogo ,
+    .footer-catalogo 
+    {
+        h3 
+        {
+            font-size: 0.8rem;
+        }
+    }
+
+    .footer-index 
+    {
+        h3 
+        {
+            font-size: 0.5rem;
+        }
+    }
+}
+
+@media (max-width: 768px) 
+{
+    .header-index 
+    {
+        img 
+        {
+            max-width: 600px;
+        }
+
+        h1 
+        {
+            font-size: 0.8rem;
+        }
+    }
+
+    .logo-container 
+    {
+        img 
+        {
+            max-width: 150px;
+            max-height: 150px;
+        }
+    }
+
+    .main-index 
+    {
+        h1 
+        {
+            font-size: 0.8rem;
+        }
+    }
+
+    .catalogos-index,
+    .footer-index 
+    {
+        h3 
+        {
+            font-size: 0.6rem;
+        }
+    }
+
+    .fabricante-index 
+    {
+        max-width: 200px;
+        max-height: 200px;
+    }
+
+    .article-catalogo 
+    {
+        max-width: 180px;
+        max-height: 230px;
+
+        p 
+        {
+            font-size: 0.5rem;
+        }
+
+        h5, h6 
+        {
+            font-size: 0.5rem;
+            font-weight: bold;
+            transition: transform 0.3s ease, font-size 0.3s ease;
+
+            &:hover 
+            {
+                transform: scale(1.1);
+                    
+            }
+        }
+    }
+
+    .tipodemaquina
+    {  
+        h1,h2 
+    
+        {
+            font-size: 1rem;
+        }
+    }
+
+    .header-catalogo,
+    .footer-catalogo 
+    {
+        a
+        
+        {
+            font-size: 0.8rem;
+        }
+    }
+
+    .footer-index
+    {
+        
+        h3 
+        {
+            font-size: 0.5rem;
+        }
+    } 
+    
+}
+
+@media (max-width: 480px) 
+{
+    .header-index    
+    {
+        img 
+        {
+            max-width: 300px;
+        }
+
+        h1 
+        {
+            font-size: 0.6rem;
+        }
+    }
+
+    .logo-container
+    { 
+        img 
+        {
+            max-width: 120px;
+            max-height: 120px;
+        }
+    }
+
+    .main-index
+    {   
+        h1    
+        {
+            font-size: 0.6rem;
+        }
+    }
+
+    .catalogos-index p,
+    .footer-index p 
+    {
+        font-size: 0.6rem;
+    }
+
+    .fabricante-index 
+    {
+        max-width: 130px;
+        max-height: 150px;
+    }
+
+    .article-catalogo 
+    {
+        max-width: 180px;
+        max-height: 230px;
+
+        p 
+        {
+            font-size: 0.6rem;
+        }
+
+        h5, h6 
+        {
+            font-size: 0.4rem;
+            font-weight: bold;
+            transition: transform 0.3s ease, font-size 0.3s ease;
+
+            &:hover 
+            {
+                transform: scale(1.1);
+                
+            }
+        }
+    }
+
+    .tipodemaquina
+    {  
+        h1,h2 
+    
+        {
+            font-size: 1rem;
+        }
+    }
+
+    .header-catalogo,
+    .footer-catalogo 
+    {
+        h3
+        {
+            font-size: 0.8rem;
+        }
+
+    }  
+    
+
+    .footer-index 
+    {
+        h3 
+        {
+            font-size: 0.5rem;
+    
+        }
+    }
+}
+
+@media (max-width: 320px) 
+{
+    .header-index 
+    { 
+        img 
+        {
+            max-width: 300px;
+        }
+    }
+    .logo-container 
+    { 
+        img 
+        {
+            max-width: 120px;
+            max-height: 120px;
+        }
+    }
+
+    .main-index 
+    {
+    
+        h1 
+        {
+            font-size: 0.6rem;
+        }
+    }
+
+    .catalogos-index ,
+    .footer-index 
+    {     
+        p 
+    
+        {
+            font-size: 0.6rem;
+        }
+    }
+
+    .fabricante-index 
+    {
+        max-width: 130px;
+        max-height: 130px;
+    }
+
+    .article-catalogo 
+    {
+        max-width: 180px;
+        max-height: 230px;
+
+        p 
+        {
+            font-size: 0.6rem;
+        }
+
+        h5, h6 {
+            font-size: 0.4rem;
+            font-weight: bold;
+            transition: transform 0.3s ease, font-size 0.3s ease;
+
+            &:hover 
+            {
+                transform: scale(1.3);
+                
+            }
+        }
+    }
+
+    .tipodemaquina
+    {  
+        h1,h2 
+    
+        {
+            font-size: 1rem;
+        }
+    }
+
+
+    .header-catalogo,
+    .footer-catalogo 
+    {
+        h3 
+        {
+            font-size: 0.8rem;
+        }
+    }
+
+    .footer-index 
+    {
+        h3 
+        {
+            font-size: 0.5rem;
+        }
+    }
+
+}
